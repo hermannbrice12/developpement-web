@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+</head>
+<body>
+    <h1>Formulaire de Connexion</h1>
+    <form id="loginForm" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+        <div>
+            <label for="username">Nom d'utilisateur:</label>
+            <!-- Ajout de la valeur par défaut "tsakemvictor" -->
+            <input type="text" id="username" name="username" value="tsakemvictor" required>
+        </div>
+        <div>
+            <label for="password">Mot de passe:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div>
+            <button type="submit">Envoyer</button>
+        </div>
+    </form>
+
+    <?php
+    // Vérifier si le formulaire a été soumis
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        // Vérifier si les champs username et password existent
+        if (isset($_POST["username"]) && isset($_POST["password"])) {
+            // Récupérer les valeurs soumises
+            $username = $_POST["username"];
+            $password = $_POST["password"];
+
+            // Afficher les informations saisies
+            echo "<h2>Informations du Formulaire</h2>";
+            echo "<p>Nom d'utilisateur : " . htmlspecialchars($username) . "</p>";
+            echo "<p>Mot de passe : " . htmlspecialchars($password) . "</p>";
+        } else {
+            echo "<p>Des champs sont manquants.</p>";
+        }
+    }
+    ?>
+</body>
+</html>
