@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRETA</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo-left {
+            width: 200px;
+            margin-left: 20px;
+        }
+        .logo-right {
+            width: 200px;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="min.png" alt="Logo du GRETA" class="logo-left">
+        <img src="greta.png" alt="Logo du GRETA" class="logo-right">
+    </div>
+    <h1>Bienvenue au GRETA</h1>
+    <p>Nom : <strong>TCHOFO</strong></p>
+    <p>Prénom : <strong>HERMANN</strong></p>
+</body>
+</html>
