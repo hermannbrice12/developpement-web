@@ -1,14 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 1;
+    padding: 1;
 }
 
 header, footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 12px 0;
 }
 
 main {
@@ -23,7 +23,7 @@ form {
 label, input, textarea {
     display: block;
     margin-bottom: 10px;
-    width: 100%;
+    width: 50%;
 }
 
 input, textarea {
