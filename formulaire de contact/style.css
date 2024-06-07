@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 1;
-    padding: 1;
+    margin: 2;
+    padding: 2;
 }
 
 header, footer {
@@ -40,5 +40,5 @@ input[type="submit"] {
     cursor: pointer;
     font-size: 16px;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
