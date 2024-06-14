@@ -18,7 +18,7 @@ main{
     background: rgb(71, 255, 163);
     margin: 0 auto;
     border-radius: 10px 10px 10px 10px;
-    padding: 1px;
+    padding: 2px;
     display: flex;
 }
 .flexbox ul {
@@ -32,7 +32,7 @@ main{
     list-style: none;
     height: 10px;
     width: 16px;
-    margin: 10px;
+    margin: 1px;
     background: turquoise;
 }
 
