@@ -11,7 +11,7 @@
         <div>
             <label for="username">Nom d'utilisateur:</label>
             <!-- Ajout de la valeur par défaut "tsakemvictor" -->
-            <input type="text" id="" name="username" value="" required>
+            <input type="text" id="username" name="username" value="tsakemvictor" required>
         </div>
         <div>
             <label for="password">Mot de passe:</label>
